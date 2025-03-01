@@ -3,20 +3,20 @@
 =======
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-##Dependancies
+## Dependancies
 - Install Node 18.18 or later
 - Install NPM at least 10.9.2 
 - Typescript 4.5.2
 - Amplify library with an adapter for nextjs
   
-##ENV
+## ENV
 NEXT_PUBLIC_USER_POOL_ID
 NEXT_PUBLIC_CLIENT_ID
 
 Thes both reference the AWS Cognito resource ids the can be found
 AWS->Cognito->
 
-##Application Description
+## Application Description
 This application was created as proof concept of a nextjs application using AWS Cognito for Authentication and Authorization using amplify-library
 
 Amplify-library functions imported
@@ -36,7 +36,7 @@ Amplify-library functions imported
 -getCurrentUser
 
 ## Prequistes
-###AWS Cognito
+### AWS Cognito
 This applicaiton at a minimum requires AWS Cognito User Pool and User Groups.
 Specifically you need the UserPool ID and Client ID
 

@@ -10,11 +10,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Amplify library with an adapter for nextjs
   
 ## ENV
-NEXT_PUBLIC_USER_POOL_ID
-NEXT_PUBLIC_CLIENT_ID
+These are the two primary environment variables needed for this application
 
-Thes both reference the AWS Cognito resource ids the can be found
-AWS->Cognito->
+NEXT_PUBLIC_USER_POOL_ID - can be found on the main User Pool page in Cognito
+
+NEXT_PUBLIC_CLIENT_ID - can be found in the web portal from the main Cognito page AppClients->ClientId
 
 ## Application Description
 This application was created as proof concept of a nextjs application using AWS Cognito for Authentication and Authorization using amplify-library
